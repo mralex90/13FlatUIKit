@@ -1,0 +1,40 @@
+/* @media(min-width: 320px){
+    body{
+        background: #577897;
+    }
+}
+@media(min-width: 767px){
+    body{
+        background: #0f4374;
+    }
+}
+@media(min-width: 990px){
+    body{
+        background: #356e39;
+    }
+}
+@media(min-width: 1100px){
+    body{
+        background: #a4b352;
+    }
+} */
+
+
+@media(max-width: 1300px){
+    body,
+    .header,
+    .nav,
+    .data-wrapper,
+    .data,
+    .sidebar,
+    .form-wrapper{
+        background: #e2f5f4;
+        min-width: 320px;
+        width: 100%;
+    }
+}
+@media(max-width: 768px){
+    body{
+        background: #5ea892;
+    }
+}
